@@ -4,7 +4,7 @@ import '../App.css'
 
 //Imagens
 
-import Logo from '../assets/e-paciente-15.png'
+import Logo from '../assets/e-compras-branco-05.png'
 
 // Icones
 import {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 //Imagens
-import logo from '../../assets/e-paciente-color-txt-15.png';
+import logo from '../../assets/e-compras-laranja-05.png';
 
 // Icones
 
