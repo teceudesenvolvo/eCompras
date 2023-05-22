@@ -32,7 +32,7 @@
 }
 
 .App-link {
-  color: #fb61a4;
+  color: #FF740F;
 }
 
 .btnHomeAcess{
@@ -46,11 +46,11 @@
 }
 
 .btnLoginHome{
-  background-color: #ff0f39;
+  background-color: #FF740F;
 }
 
 .btnCadastroHome{
-  background-color: #ff6b07;
+  background-color: #0717ff;
 }
 
 .header-home {
@@ -59,7 +59,7 @@
   width: 100%;
   flex-direction: column;
   justify-content: left;
-  background-color: #ff0f39;
+  background-color: #FF740F;
   border-radius: 0px 0px 10px 10px;
   padding-bottom: 16px; 
 }
