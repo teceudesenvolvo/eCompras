@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css'
 
-
 //Imagens
 
 import Logo from '../assets/e-compras-branco-05.png'
@@ -41,8 +40,8 @@ class topBar extends Component {
             <>
                 <div className='header-home'>
                     <p className='titleHeader'><img src={Logo} onClick={()=> {window.location.href = "/"}}/></p>
-                    <input type="text" placeholder={`Pesquisar`} className='inputPesquisar' />
-                    <FaSistrix className='PesquisarLogo' />
+                    {/* <input type="text" placeholder={`Pesquisar`} className='inputPesquisar' /> */}
+                    {/* <FaSistrix className='PesquisarLogo' /> */}
                     <div className='categoriasHomeDesktop'>
                         <CategoriasDesktop />
                     </div>
