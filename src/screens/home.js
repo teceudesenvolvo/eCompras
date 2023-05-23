@@ -36,10 +36,10 @@ class Home extends Component {
               }
             }
             />
-            <input className='btnHomeAcess btnCadastroHome' type="button" value="Acessar Portal" 
+            <input className='btnHomeAcess btnCadastroHome' type="button" value="Licitações" 
             onClick={
               () => {
-                window.location.pathname = '/login'
+                window.location.pathname = '/consultas'
               }
             }
             />
