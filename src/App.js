@@ -22,7 +22,7 @@ import addProducts from '../src/screens/addProducts';
 import servicosDashboard from '../src/screens/ServicosDashboard';
 import homeDashboard from '../src/screens/homeDashboard';
 import NotDashboard from '../src/screens/NotDashboard';
-import Receitas from '../src/screens/client/receitas'
+import Esclarecimentos from './screens/client/esclarecimentos'
 
 
 
@@ -72,7 +72,7 @@ function App() {
         <Route path="/servicosDashboard" component={servicosDashboard} />
         <Route path="/homeDashboard" component={homeDashboard} />
         <Route path="/NotDashboard" component={NotDashboard} />
-        <Route path="/receitas" component={Receitas} />
+        <Route path="/Esclarecimentos" component={Esclarecimentos} />
 
 
 
