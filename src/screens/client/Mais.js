@@ -6,18 +6,6 @@ import React, { Component } from 'react';
 
 
 // Icones
-import {
-  FaHome,
-  FaHeart,
-  FaShoppingBag,
-  FaBell,
-  FaSistrix,
-  FaUser,
-  FaUsers,
-  FaTag,
-  FaQuestionCircle
-
-} from "react-icons/fa";
 
 // Components
 import TopBar from '../../componets/topBarSearch'
@@ -36,27 +24,32 @@ class Mais extends Component {
         <div className='Mais-content'>
           <div className='Mais-item'>
             <a href='/consultas' className='Mais-icon' >
-              <span className='Mais-item-title'>Consultas</span>
+              <span className='Mais-item-title'>Processos</span>
             </a>
           </div>
           <div className='Mais-item'>
-            <a href='/exames' className='Mais-icon' >
-              <span className='Mais-item-title'>Exames</span>
+            <a href='/publicacoes' className='Mais-icon' >
+              <span className='Mais-item-title'>Publicações</span>
             </a>
           </div>
           <div className='Mais-item'>
-            <a href='/vacinas' className='Mais-icon' >
-              <span className='Mais-item-title'>Vacinas</span>
+            <a href='/impulgnacoes' className='Mais-icon' >
+              <span className='Mais-item-title'>Impulgnações</span>
             </a>
           </div>
           <div className='Mais-item'>
-            <a href='/receitas' className='Mais-icon' >
-              <span className='Mais-item-title'>Receitas</span>
+            <a href='/esclarecimentos' className='Mais-icon' >
+              <span className='Mais-item-title'>Esclarecimentos</span>
+            </a> 
+          </div>
+          <div className='Mais-item'>
+            <a href='/recursos' className='Mais-icon' >
+              <span className='Mais-item-title'>Recursos</span>
             </a> 
           </div>
           <div className='Mais-item'>
             <a href='/perfil' className='Mais-icon' >
-              <span className='Mais-item-title'>Minha Saúde</span>
+              <span className='Mais-item-title'>Minha Conta</span>
             </a>
           </div>
           <div className='Mais-item'>

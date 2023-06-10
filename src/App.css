@@ -1433,7 +1433,7 @@ video {
 /* Mais */
 
 .MenuPage{
-  background-color: #ff0f39;
+  background-color: #ff740f;
 }
 
 .Mais-content {
@@ -1448,8 +1448,8 @@ video {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  background-color: #ba0021;
-  border-bottom: 1px solid #AD001F;
+  background-color: #d45900;
+  border-bottom: 1px solid #d45900;
 }
 
 .Mais-icon {
@@ -1464,7 +1464,7 @@ video {
 }
 
 .Mais-icon:hover {
-  color: #ff7b0091;
+  color: #ff9c3f91;
 }
 
 .Mais-item-title {
