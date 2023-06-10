@@ -38,9 +38,9 @@ class menu extends Component {
         return this.setState({ linkMenu: 'linkMenu link-active' })
       case `/publicacoes`:
         return this.setState({ linkMenu2: 'linkMenu link-active' })
-      case `/vacinas`:
+      case `/impulgnacoes`:
         return this.setState({ linkMenu3: 'linkMenu link-active' })
-      case `/receitas`:
+      case `/esclarecimentos`:
         return this.setState({ linkMenu4: 'linkMenu link-active' })
       case `/Mais`:
         return this.setState({ linkMenu5: 'linkMenu link-active' })
@@ -79,9 +79,9 @@ class menu extends Component {
 
         <a href='/consultas' className={this.state.linkMenu}><FaStethoscope /></a>
         <a href='/publicacoes' className={this.state.linkMenu2}> < FaHandHoldingHeart /> </a>
-        <a href='/vacinas' className={this.state.linkMenu3}> <FaSyringe /> </a>
-        <a href='/receitas' className={this.state.linkMenu4}> <FaFileMedical /> </a>
-        <a href='/Mais' className={this.state.linkMenu5}> <FaBars /> </a>
+        <a href='/impulgnacoes' className={this.state.linkMenu3}> <FaSyringe /> </a>
+        <a href='/esclarecimentos' className={this.state.linkMenu4}> <FaFileMedical /> </a>
+        <a href='/mais' className={this.state.linkMenu5}> <FaBars /> </a>
 
       </nav>
 

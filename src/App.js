@@ -14,7 +14,7 @@ import Produto from './screens/client/Produto';
 import Carrinho from './screens/client/carrinho';
 import pagamento from './screens/client/pagamento';
 import Pesquisar from './screens/client/pesquisa';
-import vacinas from './screens/client/vacinas';
+import Impulgnacoes from './screens/client/impulgnacoes';
 import utilider from './screens/client/utilider';
 import pagamentoUtilider from './screens/client/pagamentoUtilider';
 import Perfil from './screens/client/Perfil';
@@ -59,7 +59,7 @@ function App() {
         <Route path="/Produto" component={Produto} />
         <Route path="/Carrinho" component={Carrinho} />
         <Route path="/pesquisar" component={Pesquisar} />
-        <Route path="/vacinas" component={vacinas} />
+        <Route path="/Impulgnacoes" component={Impulgnacoes} />
         <Route path="/pagamento" component={pagamento} />
         <Route path="/utilider" component={utilider} />
         <Route path="/pagamentoUtilider" component={pagamentoUtilider} />

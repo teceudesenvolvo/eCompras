@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 // Components
 import TopBar from '../../componets/topBarSearch'
 
-import VacinasList from '../../componets/vacinasList';
+import ImpulgnacoesList from '../../componets/impugnacoesList';
 
 //mudança de páginas
 
@@ -22,8 +22,8 @@ class categorias extends Component {
               <TopBar />
             </div>
             <div className='favoritos agendarConsulta'>
-            <h1>Calendário de Vacinas</h1>
-              <VacinasList/> 
+            <h1>Impulgnações</h1>
+              <ImpulgnacoesList/> 
             </div>
           </div>
         );
