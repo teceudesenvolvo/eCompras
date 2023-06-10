@@ -23,6 +23,7 @@ import servicosDashboard from '../src/screens/ServicosDashboard';
 import homeDashboard from '../src/screens/homeDashboard';
 import NotDashboard from '../src/screens/NotDashboard';
 import Esclarecimentos from './screens/client/esclarecimentos'
+import Recursos from './screens/client/recursos'
 
 
 
@@ -73,6 +74,8 @@ function App() {
         <Route path="/homeDashboard" component={homeDashboard} />
         <Route path="/NotDashboard" component={NotDashboard} />
         <Route path="/Esclarecimentos" component={Esclarecimentos} />
+        <Route path="/Esclarecimentos" component={Esclarecimentos} />
+        <Route path="/Recursos" component={Recursos} />
 
 
 
