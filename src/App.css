@@ -228,7 +228,7 @@
 .favoritoItem {
   list-style: none;
   width: 100%;
-  height: 100px;
+  height: auto;
   display: inline-block;
   flex-direction: row;
   align-items: center;
@@ -795,14 +795,14 @@ video {
 
 .productItem-minhasCompras {
   list-style: none;
-  height: 150px;
+  height: auto;
   width: 100%;
   align-items: center;
   justify-content: center;
   background-color: #d9d9d9;
   border-radius: 12px;
   margin: 10px 10px 0px -15px;
-  
+  padding: 10px 0px 15px 0px;
 }
 
 
@@ -811,7 +811,8 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 100%;
+  height: auto;
+  margin-top: 5px;
 }
 
 .descricaoProduct-minhasCompras {
@@ -827,8 +828,10 @@ video {
 .descricaoProduct-minhasCompras>p {
   color: #5a5a5a;
   font-size: 12px;
-  padding-left: 7px;
+  padding-left: 0;
   margin: 0;
+  width: 90%;
+  text-align: left;
 }
 
 .descricaoProduct-minhasCompras>p>b {

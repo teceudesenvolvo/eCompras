@@ -5,8 +5,8 @@ import { Switch, Route } from 'react-router-dom'
 
 //Screen Navigate
 import Home from '../src/screens/home';
-import Exames from './screens/client/exames';
-import Minhas_Consultas from './screens/client/Minhas_Consultas';
+import Publicacoes from './screens/client/publicacoes';
+import Processos from './screens/client/Processos';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 import Servico from './screens/client/Servico';
@@ -51,8 +51,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/login" component={login} />
         <Route path="/register" component={register} />
-        <Route path="/Exames" component={Exames} />
-        <Route path="/Consultas" component={Minhas_Consultas} />
+        <Route path="/publicacoes" component={Publicacoes} />
+        <Route path="/Consultas" component={Processos} />
         <Route path="/Notificacoes" component={Notificacoes} />
         <Route path="/Mais" component={Mais} />
         <Route path="/Servico" component={Servico} />

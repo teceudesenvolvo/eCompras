@@ -11,17 +11,27 @@ import React, { Component } from 'react';
 
 class exameList extends Component {
     state = {
-        exames: [
+        publicacoes: [
             {
                 id: '1',
-                tipo: 'Exame de sangue',
-                date: '20/02/2023',
+                aviso: 'AVISO DE CANCELAMENTO ',
+                date: '28/12/2022',
             },
             {
                 id: '1',
-                tipo: 'Exame de sangue',
-                date: '20/02/2023',
-            }
+                aviso: 'AVISO DE CANCELAMENTO ',
+                date: '28/12/2022',
+            },
+            {
+                id: '1',
+                aviso: 'AVISO DE CANCELAMENTO ',
+                date: '28/12/2022',
+            },
+            {
+                id: '1',
+                aviso: 'AVISO DE CANCELAMENTO ',
+                date: '28/12/2022',
+            },
         ]
     }
 
@@ -29,10 +39,10 @@ class exameList extends Component {
 
 
     render() {
-        const exames = this.state.exames
+        const publicacoes = this.state.publicacoes
 
-        const listCategories = exames.map((exame) =>
-            <li key={(exame.id)} className="favoritoItem"
+        const listPublicacoes = publicacoes.map((publicacao) =>
+            <li key={(publicacao.id)} className="favoritoItem"
                 onClick={
                     () => {
                         window.location.href = "/produto"
@@ -43,10 +53,8 @@ class exameList extends Component {
                 }
             >
                 <div className='areaTextDescProductF' >
-                    <p className='valueProduct' >{exame.tipo}</p>
-                    <p className='descricaoProduct' >{exame.date}</p>
-
-                    <button className='buttonLogin btnExame'>PDF</button>
+                    <p className='valueProduct' >{publicacao.aviso}</p>
+                    <p className='descricaoProduct' >{publicacao.date}</p>
                 </div>
             </li>
         )
@@ -55,7 +63,7 @@ class exameList extends Component {
         return (
             <>
                 <ul className='vistosHome'>
-                    {listCategories}
+                    {listPublicacoes}
                 </ul>
             </>
 

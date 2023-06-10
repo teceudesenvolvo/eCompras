@@ -36,7 +36,7 @@ class menu extends Component {
     switch (this.state.window) {
       case `/consultas`:
         return this.setState({ linkMenu: 'linkMenu link-active' })
-      case `/exames`:
+      case `/publicacoes`:
         return this.setState({ linkMenu2: 'linkMenu link-active' })
       case `/vacinas`:
         return this.setState({ linkMenu3: 'linkMenu link-active' })
@@ -78,7 +78,7 @@ class menu extends Component {
       <nav className={this.state.menuClass}>
 
         <a href='/consultas' className={this.state.linkMenu}><FaStethoscope /></a>
-        <a href='/exames' className={this.state.linkMenu2}> < FaHandHoldingHeart /> </a>
+        <a href='/publicacoes' className={this.state.linkMenu2}> < FaHandHoldingHeart /> </a>
         <a href='/vacinas' className={this.state.linkMenu3}> <FaSyringe /> </a>
         <a href='/receitas' className={this.state.linkMenu4}> <FaFileMedical /> </a>
         <a href='/Mais' className={this.state.linkMenu5}> <FaBars /> </a>
