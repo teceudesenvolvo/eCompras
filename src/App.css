@@ -2271,6 +2271,9 @@ footer > p {
     width: 70%;
   }
   .Container{
-    width: 30%;
+    width: 80%;
+  }
+  .logo {
+    width: 40%;
   }
 }

@@ -5,11 +5,11 @@ import React, { Component } from 'react';
 
 // Icones
 import {
-  FaStethoscope,
-  FaFileMedical,
-  FaBars,
-  FaSyringe,
-  FaHandHoldingHeart
+  FaFilter,
+  FaNewspaper,
+  FaBan,
+  FaRegLightbulb,
+  FaBars
 } from "react-icons/fa";
 
 // Components
@@ -77,10 +77,10 @@ class menu extends Component {
     return (
       <nav className={this.state.menuClass}>
 
-        <a href='/consultas' className={this.state.linkMenu}><FaStethoscope /></a>
-        <a href='/publicacoes' className={this.state.linkMenu2}> < FaHandHoldingHeart /> </a>
-        <a href='/impulgnacoes' className={this.state.linkMenu3}> <FaSyringe /> </a>
-        <a href='/esclarecimentos' className={this.state.linkMenu4}> <FaFileMedical /> </a>
+        <a href='/consultas' className={this.state.linkMenu}><FaFilter /></a>
+        <a href='/publicacoes' className={this.state.linkMenu2}> < FaNewspaper /> </a>
+        <a href='/impulgnacoes' className={this.state.linkMenu3}> <FaBan /> </a>
+        <a href='/esclarecimentos' className={this.state.linkMenu4}> <FaRegLightbulb /> </a>
         <a href='/mais' className={this.state.linkMenu5}> <FaBars /> </a>
 
       </nav>
