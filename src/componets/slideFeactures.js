@@ -59,7 +59,7 @@ class slideFeactures extends Component {
         const posts = this.state.posts
 
         if(posts.length > 8){
-            posts.length = 8
+            posts.length = 20
         }
 
         const listPosts = posts.map((post) =>

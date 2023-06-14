@@ -36,10 +36,38 @@
   color: #FF740F;
 }
 
+.hero{
+  width: 100%;
+  background-color: transparent;
+}
+.heroImg{
+  width: 100%;
+  height: 451px;
+  object-fit: cover;
+  background-color: transparent;
+}
+.heroDesc{
+  height: auto;
+  border-radius: 0 !important;
+  margin-top: -114px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  position: relative;
+  z-index: 1;
+}
+
+.heroDesc > p{
+  color: white;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+
 .btnHomeAcess{
   width: 40%;
   height: 50px;
-  margin: 10px 5px 5px 0px;
+  margin: 30px 5px 5px 0px;
   font-weight: 800;
   color: #fff;
   border-radius: 10px;
@@ -203,12 +231,12 @@
 .vistosHome {
   flex-direction: row;
   display: block;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   list-style: none;
   margin-top: 0px;
-  margin-left: -20px;
+  margin-left: -40px;
   margin-bottom: 0px;
 }
 
@@ -2179,11 +2207,21 @@ footer > p {
   .menu {
     display: none;
   }
-
+  .heroDesc{
+    margin-top: -70px;    
+  }
+  .heroDesc > p{
+    margin-left: 3%;    
+  }
 
   .conteinerHome {
 
     align-items: center;
+  }
+
+  .Container > h1{
+    margin-left: 4%;
+    font-size: 15px;
   }
 
   .splide__track {
