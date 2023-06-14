@@ -6,10 +6,10 @@ import Logo from '../assets/e-compras-branco-05.png';
 
 // Icones
 import {
-    FaHome,
-    FaHeart,
-    FaShoppingBag,
-    FaBell,
+    FaFilter,
+    FaNewspaper,
+    FaBan,
+    FaRegLightbulb,
     FaUser,
     FaQuestionCircle
 
@@ -36,13 +36,13 @@ class menuDesktop extends Component {
 
     btnHome = () => {
         switch (this.state.window) {
-            case `/`:
+            case `/consultas`:
                 return this.setState({ linkMenu: 'aDesktop link-desktop-active' })
-            case `/favoritos`:
+            case `/publicacoes`:
                 return this.setState({ linkMenu2: 'aDesktop link-desktop-active' })
-            case `/Compras`:
+            case `/impulgnacoes`:
                 return this.setState({ linkMenu3: 'aDesktop link-desktop-active' })
-            case `/Notificacoes`:
+            case `/esclarecimentos`:
                 return this.setState({ linkMenu4: 'aDesktop link-desktop-active' })
             case `/Mais`:
                 return this.setState({ linkMenu5: 'aDesktop link-desktop-active' })
@@ -69,24 +69,24 @@ class menuDesktop extends Component {
                     {/* <h1 className='h1-logo'>| List</h1> */}
                 </a>
 
-                <a href="/" className={this.state.linkMenu}>
-                    <FaHome className='fas fa-home'></FaHome>
-                    <span className='nav-item'>Home</span>
+                <a href="/consultas" className={this.state.linkMenu}>
+                    <FaFilter className='fas fa-home'></FaFilter>
+                    <span className='nav-item'>Consultas</span> 
                 </a>
 
-                <a href="/favoritos" className={this.state.linkMenu2}>
-                    <FaHeart className='fas fa-favoritos'></FaHeart>
-                    <span className='nav-item'>favoritos</span>
+                <a href="/publicacoes" className={this.state.linkMenu2}>
+                    <FaNewspaper className='fas fa-favoritos'></FaNewspaper>
+                    <span className='nav-item'>Publicacoes</span>
                 </a>
 
-                <a href="/Compras" className={this.state.linkMenu3}>
-                    <FaShoppingBag className='fas fa-Compras'></FaShoppingBag>
-                    <span className='nav-item'>Compras</span>
+                <a href="/impulgnacoes" className={this.state.linkMenu3}>
+                    <FaBan className='fas fa-Compras'></FaBan>
+                    <span className='nav-item'>Impulgnações</span>
                 </a>
 
-                <a href="/Notificacoes" className={this.state.linkMenu4}>
-                    <FaBell className='fas fa-Notificacoes'></FaBell>
-                    <span className='nav-item'>Notificações</span>
+                <a href="/esclarecimentos" className={this.state.linkMenu4}>
+                    <FaRegLightbulb className='fas fa-Notificacoes'></FaRegLightbulb>
+                    <span className='nav-item'>Esclarecimentos</span>
                 </a>
                 <a href="/login" className={this.state.linkMenu5}>
                     <FaUser className='fas fa-Ajuda'></FaUser>

@@ -766,7 +766,7 @@ video {
 }
 
 .agendarConsulta > h1{
-  font-size: 10px;
+  font-size: 15px;
   color: #000;
 }
 
@@ -2069,7 +2069,7 @@ footer > p {
   bottom: 0;
   height: 100vh;
   left: 0;
-  background: #363636;
+  background: #ff740f;
   width: 40px;
   overflow: hidden;
   transition: width 0.2 linear;
@@ -2133,7 +2133,7 @@ footer > p {
 
 .aDesktop {
   position: relative;
-  color: #b7b7b7;
+  color: #fff;
   font-size: 14px;
   display: flex;
   padding: 5px;
@@ -2149,7 +2149,7 @@ footer > p {
 
 
 .link-desktop-active {
-  color: #ff7b00 !important;
+  color: #8d4400 !important;
 }
 
 .fas {
@@ -2179,9 +2179,6 @@ footer > p {
     display: none;
   }
 
-  .header-home {
-    background-color: #1F1F1F;
-  }
 
   .conteinerHome {
 
@@ -2221,17 +2218,50 @@ footer > p {
 
   .favoritoItem {
     max-width: 350px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .vacinaItem{
+    margin-left: 5px;
+    margin-bottom: 10px !important; 
+    height: auto !important;
   }
 
 
   .HomeDesktopCarrosel {
-   
     justify-content: center;
     align-items: center;
-    margin-left: 95px;
-  
-   
+    margin-left: 40px;
+    padding: 10px;
+    width: 115%;
+  }
 
+  .slidesFeacture {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .imagDestaques{
+    height: 225px;
+  }
+
+  .productItem{
+    margin: 0px 0px 20px 50px;
+  }
+
+  .areaTextDescProduct{
+    padding: 1px 0 30px 10px;
+  }
+
+  .areaTextDescProductF{
+    margin-bottom: 0px;
+  }
+
+  .imgProduct{
+    height: 500px;
+  }
+  
+  .descricaoProduct{
+    font-size: 15px;
   }
 
   .Servico-container {
@@ -2262,10 +2292,10 @@ footer > p {
   }
 
   .minhasCompras{
-    width: 50%;
+    width: 80%;
   } 
   .favoritos{
-    width: 80%;
+    width: 90%;
   }
   .notificacoes {
     width: 70%;
