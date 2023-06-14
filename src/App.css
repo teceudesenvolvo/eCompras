@@ -2221,6 +2221,14 @@ footer > p {
     margin-left: 5px;
     margin-bottom: 10px;
   }
+  .vistosHome{
+    display: inline-block;
+  }
+  .productItem{
+    width: 45% !important;
+    display: inherit !important;
+  }
+
   .vacinaItem{
     margin-left: 5px;
     margin-bottom: 10px !important; 
