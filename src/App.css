@@ -35,7 +35,9 @@
 .App-link {
   color: #FF740F;
 }
-
+.heroDiv{
+  width: 100% !important;
+}
 .hero{
   width: 100%;
   background-color: transparent;

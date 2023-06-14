@@ -75,7 +75,7 @@ class ProductsList extends Component {
 
         return (
             <>
-                <ul className='vistosHome'>
+                <ul className='vistosHome heroDiv'>
                     {listPosts}
                 </ul>
             </>
