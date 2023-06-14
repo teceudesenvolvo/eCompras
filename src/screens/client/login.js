@@ -17,10 +17,10 @@ class loginClient extends Component {
                 <div className='Container' >
                     <img src={logo} alt="logo" className='logo logoLogin' />
                     <form className='formLogin'>
-                        <h1>Entre com sua conta:</h1>
+                        <h1>Entre com sua conta:</h1> 
                         <input type="text" placeholder="CPF" className='inputLogin' />
                         <input type="password" placeholder="Senha" className='inputLogin' />
-                        <a href='#' className='linkLogin'>Esqueceu a senha?</a>
+                        <a href='/consultas' className='linkLogin'>Esqueceu a senha?</a>
                         <input type="button" className='buttonLogin' value="Entrar"
                         onClick={
                             () => {

@@ -440,12 +440,12 @@ h1 {
 }
 
 .txtErro {
-  width: 70%;
+  width: 93%;
   height: 40px;
-  border: 0;
+  background-color: #d9d9d9;
+  border: none;
   border-bottom: 1px solid red;
-  margin-bottom: 20px;
-  background-color: #1f1f1f;
+  margin-bottom: 5px;
   color: red;
 }
 

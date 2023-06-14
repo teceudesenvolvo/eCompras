@@ -13,9 +13,11 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.19.2",
     "base-64": "^1.0.0",
+    "cors": "^2.8.5",
     "cpf-cnpj-validator": "^1.0.3",
     "date-fns": "latest",
     "dayjs": "latest",
+    "firebase": "^9.10.0",
     "history": "^4.10.1",
     "moment": "^2.24.0",
     "pagarme": "^4.15.3",
@@ -31,8 +33,7 @@
     "redux-thunk": "^2.3.0",
     "request": "^2.88.2",
     "web-vitals": "^2.1.4",
-    "yarn": "^1.22.10", 
-    "firebase": "^9.10.0"
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",

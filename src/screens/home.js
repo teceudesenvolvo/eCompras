@@ -29,7 +29,7 @@ class Home extends Component {
 
         <div className='conteinerHome'>
           <div>
-            <input className='btnHomeAcess btnLoginHome' type="button" value="Primeiro Acesso"
+            <input className='btnHomeAcess btnLoginHome' type="button" value="Quero ser Fornecedor"
             onClick={
               () => {
                 window.location.pathname = '/register'
