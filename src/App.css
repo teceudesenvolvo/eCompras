@@ -77,6 +77,7 @@
   color: #fff;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .btnLoginHome{
