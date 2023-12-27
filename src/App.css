@@ -687,7 +687,7 @@ video {
 }
 
 .splide__pagination__page.is-active {
-  background: #ff0f39 !important;
+  background: #FF7A00 !important;
 }
 
 .splide__track {
@@ -2211,6 +2211,9 @@ footer > p {
 
 
 @media (min-width: 1000px) {
+  .header-home{
+    position: fixed;
+  }
   .menu {
     display: none;
   }
